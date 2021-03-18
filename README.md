@@ -1,21 +1,21 @@
 <div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="Nodeeventos" />
+  <img src="./public/images/node.png" alt="impacta-node-express" />
 
   &#xa0;
 
   <!-- <a href="https://nodeeventos.netlify.app">Demo</a> -->
 </div>
 
-<h1 align="center">Nodeeventos</h1>
+<h1 align="center">Projeto Eventos | Node Express EJS</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/lucasgomesoficial/nodeeventos?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/lucasgomesoficial/impacta-node-express?color=56BEB8">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/lucasgomesoficial/nodeeventos?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/lucasgomesoficial/impacta-node-express?color=56BEB8">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/lucasgomesoficial/nodeeventos?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/lucasgomesoficial/impacta-node-express?color=56BEB8">
 
-  <img alt="License" src="https://img.shields.io/github/license/lucasgomesoficial/nodeeventos?color=56BEB8">
+  <img alt="License" src="https://img.shields.io/github/license/lucasgomesoficial/impacta-node-express?color=56BEB8">
 
   <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/lucasgomesoficial/nodeeventos?color=56BEB8" /> -->
 
@@ -46,33 +46,33 @@
 
 ## :dart: About ##
 
-Describe your project
+Application developed to study Express, using EJS, creating an App with login and password stored in cookies, with validation and error handling.
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
+:heavy_check_mark: cookie-parser;\
+:heavy_check_mark: express-load;\
+:heavy_check_mark: express-session;\
+:heavy_check_mark: http-errors;
 
 ## :rocket: Technologies ##
 
 The following tools were used in this project:
 
-- [Expo](https://expo.io/)
 - [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
+- [Express](https://expressjs.com/pt-br/)
+- [EJS](https://ejs.co/)
+- [JavaScript](https://www.javascript.com/)
 
 ## :white_check_mark: Requirements ##
 
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
+Before starting :checkered_flag: you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
 
 ## :checkered_flag: Starting ##
 
 ```bash
 # Clone this project
-$ git clone https://github.com/lucasgomesoficial/nodeeventos
+$ git clone https://github.com/lucasgomesoficial/impacta-node-express.git
 
 # Access
 $ cd nodeeventos
