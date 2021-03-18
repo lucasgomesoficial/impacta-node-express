@@ -75,13 +75,13 @@ Before starting :checkered_flag: you need to have [Git](https://git-scm.com) and
 $ git clone https://github.com/lucasgomesoficial/impacta-node-express.git
 
 # Access
-$ cd nodeeventos
+$ cd impacta-node-express
 
 # Install dependencies
-$ yarn
+$ npm install
 
 # Run the project
-$ yarn start
+$ node app.js
 
 # The server will initialize in the <http://localhost:3000>
 ```
