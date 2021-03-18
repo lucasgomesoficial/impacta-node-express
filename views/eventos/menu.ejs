@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <meta charset="utf-8">
+    <title>Cadastro de Eventos e Convidados - Menu de Opções</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel='stylesheet' href='/stylesheets/global.css' />
+    <link rel='stylesheet' href='/stylesheets/pages.css' />
+  </head>
+  <body>
+    <header>
+      <p>
+        Bem-vindo, <%= usuario.nome %> | 
+        <a href='/logout' class='logout'>
+          <i class="glyphicon glyphicon-off"></i>
+          Logout
+        </a>
+      </p>
+      <h1>Menu de Opções</h1>
+      <h3>Escolha sua opção:</h3>
+    </header>
+    <section>
+      <ul>
+        <li>
+          <a href="/cadUsuario">
+            <i class="glyphicon glyphicon-plus"></i>
+            Cadastro de Usuários
+          </a>
+        </li>
+        <li>
+          <a href="/cadEvento">
+            <i class="glyphicon glyphicon-bullhorn"></i>
+            Cadastro de Eventos
+          </a>
+        </li>
+        <li>
+          <a href="/listaEventos">
+            <i class="glyphicon glyphicon-list"></i>
+            Lista de Eventos
+          </a>
+        </li>
+      </ul>
+    </section>
+    <footer>
+      <small>Sistema de Cadastro de Eventos e Convidados</small>
+    </footer>
+  </body>
+</html>
